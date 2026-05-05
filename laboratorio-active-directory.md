@@ -1,7 +1,7 @@
 # 🖥️ Laboratorio: Active Directory Domain Services (AD DS)
 ### Cómo AD DS maneja una red empresarial
 
-**Autor:** Damián Trinidad (Lobito)  
+**Autor:** wd40dry  
 **Fecha:** Mayo 2026  
 **Entorno:** VirtualBox · Windows Server 2022 · Windows 10 Pro
 
@@ -236,11 +236,11 @@ En una empresa con 500 empleados, AD permite que:
 
 ## 🔭 Próximos pasos
 
-- [ ] Crear y aplicar GPOs (Group Policy Objects)
-- [ ] Agregar Kali Linux al laboratorio para práctica de Red Team
-- [ ] Practicar enumeración de AD con herramientas como BloodHound
-- [ ] Simular ataques: Pass-the-Hash, Kerberoasting, AS-REP Roasting
-- [ ] Implementar medidas defensivas y monitoreo de eventos
+- [ ] Crear y aplicar GPOs defensivas (bloqueo de USB, restricción de software, políticas de contraseñas)
+- [ ] Configurar Event Viewer para monitorear inicios de sesión y cambios en AD
+- [ ] Instalar y configurar Sysmon para logging avanzado de eventos en Windows
+- [ ] Centralizar logs con un SIEM básico (Wazuh o Splunk free tier)
+- [ ] Simular incidentes y practicar detección y respuesta (IR)
 
 ---
 
@@ -248,9 +248,10 @@ En una empresa con 500 empleados, AD permite que:
 
 - [Microsoft Learn — Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview)
 - [TryHackMe — Active Directory Basics](https://tryhackme.com/room/activedirectorybasics)
-- [HackTricks — AD Pentesting](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology)
+- [TryHackMe — SOC Level 1](https://tryhackme.com/path/outline/soclevel1)
+- [Wazuh — SIEM open source](https://wazuh.com)
 
 ---
 
-*Documento escrito como parte de mi camino autodidacta hacia Cloud Security Engineering y Red Team.*  
-*— Lobito, Uruguay 🇺🇾*
+*Documento escrito como parte de mi camino autodidacta hacia Cloud Security Engineering y Blue Team.*  
+*— wd40dry | Uruguay 🇺🇾*
